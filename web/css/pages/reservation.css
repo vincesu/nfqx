@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+.item {margin:25px 8px;}
+.item .title {width: 100%;text-align:left; text-indent: 11px;height: 36px;color: rgb(55, 114, 148);font: bold 15px/28px '微软雅黑';}
+.button {cursor: pointer;}
+.helper {list-style-image: url("../../images/helper.png");}
+.module {margin-top:10px;}
+.module2 {margin-top:10px;}
+.module li {width: 300px;float: left;margin-bottom: 10px;list-style-image: url("../../images/icon-378.png");margin-left: 50px;}
+.module2 li {width: 180px;float: left;margin-bottom: 10px;list-style-image: url("../../images/icon-378.png");margin-left: 50px;}

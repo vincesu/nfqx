@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.tornado.entity">
+	<class
+		name="BookingService"
+		table="booking_service"
+	>
+		<meta attribute="sync-DAO">false</meta>
+		<id
+			name="Id"
+			type="java.lang.Long"
+			column="id"
+		>
+			<generator class="increment"/>
+		</id>
+
+		<property
+			name="Username"
+			column="username"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="Contact"
+			column="contact"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="Brand"
+			column="brand"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="Diagnosis"
+			column="diagnosis"
+			type="java.lang.Long"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="Displacement"
+			column="displacement"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="Model"
+			column="model"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="Year"
+			column="year"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="Status"
+			column="status"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="Reserved"
+			column="reserved"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="Remark"
+			column="remark"
+			type="string"
+			not-null="false"
+			length="300"
+		/>
+		<property
+			name="Date"
+			column="date"
+			type="date"
+			not-null="false"
+			length="10"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

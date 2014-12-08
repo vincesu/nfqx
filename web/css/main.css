@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+.navigation {overflow:hidden;position: relative;}
+.navigation-ul {width:8888px;position: relative;left: 0px;}
+.navigation-li {float:left;}
+input {border: 1px solid lightGrey;margin-top: 0px;line-height: 1.2;padding: 0.4em 0.3em;font-family: Microsoft Yahei;}
+select {padding: 0.4em 0.3em;}

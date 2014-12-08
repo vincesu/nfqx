@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+.clxb-bg {background:url(../../images/cb_bg.jpg) 0 0 no-repeat; }
+.fieldinput {height: 16px;width: 130px;}
+#clxb_form {margin-top: 340px; margin-left: 215px;}
+#clxb_form tr{height: 30px;}
+#cb_submit_button {cursor: pointer;background:url(../../images/cb_submit_button_bg.jpg) 0 0 no-repeat;width: 178px;height: 41px;margin-top:20px;margin-left:60px;}
