@@ -8,10 +8,13 @@
 
 		<!-- local connection properties -->
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1/nfqx</property>
+<!-- 		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1/nfqx</property> -->
+<!--    		<property name="hibernate.connection.username">nfqx</property>    -->
+<!-- 		<property name="hibernate.connection.password">nfqx</property>    -->
 		
-   		<property name="hibernate.connection.username">nfqx</property>   
-		<property name="hibernate.connection.password">nfqx</property>   
+		<property name="hibernate.connection.url">jdbc:mysql://sqld.duapp.com:4050/UHpzMeHOVOgLEMOlOzVD</property>
+   		<property name="hibernate.connection.username">m2P4Wt5wRlEReyfWMr5B7NAd</property>   
+		<property name="hibernate.connection.password">jy8abijqAjRdS9OK7kQXjkX3fVHa3UjH</property>   
 
 <!-- 		<property name="hibernate.connection.username">root</property> -->
 <!-- 		<property name="hibernate.connection.password">root</property> -->

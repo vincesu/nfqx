@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>预约维修</title>
+<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../../../css/wx/common.css" />
+<link type="text/css" rel="stylesheet" href="../../../css/slider/slider.css" />
+<script type="text/javascript" src="../../../js/slider/zepto.js"></script>
+<script type="text/javascript" src="../../../js/slider/touch.js"></script>
+<script type="text/javascript" src="../../../js/slider/zepto.extend.js"></script>
+<script type="text/javascript" src="../../../js/slider/zepto.ui.js"></script>
+<script type="text/javascript" src="../../../js/slider/slider.js"></script>
+<script>
+$(function(){
+}); 
+</script>
+</head>
+
+<body>
+    <div id="fla" class="page" >
+        <img lazyload="../../../images/wx_test_first.jpg" id="img0" >
+        </img>
+        <img lazyload="../../../images/wx_test_second.jpg" id="img1" />
+    </div>
+<script>
+    //创建slider组件
+    var ii = $('#fla').slider();
+    var wei = $(window).width();
+    var hei = $(window).height();
+    $("#fla").css({"width": wei, "height": hei});
+    $("#img0").css({"width": "25%", "height": "100%"});
+    $("#img1").css({"width": "25%", "height": "100%"});
+    
+    $('#fla').slider('setWid','25%');
+    $('#fla').slider('setMainid','fla');
+    
+</script>
+</body>
+</html>

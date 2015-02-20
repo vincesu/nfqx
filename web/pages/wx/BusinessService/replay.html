@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>预约成功</title>
+<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="wiying/Tpl/Wap/wiying/Index/Y-meirong/default/index.css" />
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/jquery.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/g.base.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/iscroll.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/alert.js"></script>
+<script type="text/javascript" src="wiying/Tpl/Wap/wiying/common/common.js"></script>
+<script>
+    $(function() {
+        var wei = $(window).width();
+        var hei = $(window).height();
+        $("#mainpanel").css({"width": wei, "height": hei});
+        $("#mainpanel").css({"background": "#f4da0b"});
+        /*
+        $(window).resize(function() {
+            var wei = $(window).width();
+            var hei = $(window).height();
+            $("#img1").css({"width": wei, "height": hei});
+        });
+        */
+        var r = decodeURI(getUrlParam('xming0'));
+        if(r.indexOf('先生')>=0)
+        	$('#xming0').html('尊敬的'+decodeURI(getUrlParam('xming0'))+'：');
+        else
+        	$('#xming0').html('尊敬的'+decodeURI(getUrlParam('xming0'))+'先生：');
+        
+    });
+</script>
+</head>
+
+<body>
+    <div id="mainpanel" class="page">
+        <img src="234947-12110Z1114598.jpg" width="100%" id="img1" />
+        <div id="xming0" style="position:absolute; top:18%; right:0;left:22%;width:50%;height:18px">
+        	尊敬的苏懋荣先生：
+        </div>
+        <div style="position:absolute; top:25%; right:0;left:22%;width:60%">感谢您对我们的信任，我们的客服经理马上会和您联系。请您保持电话畅通，再次感谢您的光临。</div>
+        <div style="position:absolute; top:38%; right:0;left:26%;width:25%">顺祝安康！</div>
+        <div style="position:absolute; top:45%; right:0;left:60%;width:25%">清源汽修厂</div>
+        
+    </div>
+</body>
+</html>

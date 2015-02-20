@@ -1,0 +1,16 @@
+*{ margin:0px; padding:0px;}
+body{ font-family:Console; font-weight:100; color:#000; font-size:16px;}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+img{ border:0px; width:100%; }
+
+.page{ position:relative; overflow:hidden; min-width:300px;}
+.page div.list{ position:absolute; top:25%; right:0;left:20%}
+/*.page div.list input{ display:block; width:35%;font-size:20px;background-color:transparent; margin-bottom:3.5%; border:none; padding:0px 10px; float:left; clear:left;}*/
+.page div.list input{ width:80%;font-size:16px;background-color:transparent; border:none; padding:0px 10px; }
+.page div.list td{ border-bottom:medium solid #8a9e99; }
+
+.footer{ line-height:20px; text-align:center; width:100%; position:fixed; bottom:0px;}
+.footer-top{ color:#333; font-weight:bold;}
+.footer-bottom{  color:#333; font-weight:bold;}
+.footer-bottom a{ color:#333;}
